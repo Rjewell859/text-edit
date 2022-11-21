@@ -1,2 +1,2 @@
-# text-edit
-A simple text editor
+# text-editor
+A simple progressive web application text editor
