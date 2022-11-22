@@ -10,12 +10,13 @@
 
 body {
   margin: 0;
+  height: 100%;
   background-color: var(--monoaki);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
-
+.CodeMirror { height: 100%; }
 h1 {
   font-size: 22px;
 }
