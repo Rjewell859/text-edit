@@ -19,7 +19,9 @@ body {
 h1 {
   font-size: 22px;
 }
-
+#main {
+  height:100%;
+}
 #navbar {
   height: var(--navbar-height);
   background-color: var(--primary);
@@ -45,8 +47,8 @@ h1 {
   animation-iteration-count: infinite;
   animation-name: rotate-forever;
   animation-timing-function: linear;
-  height: 30px;
-  width: 30px;
+  height: 100%;
+  width: 100%;
   border: 3px solid var(--primary);
   border-right-color: transparent;
   border-radius: 50%;
