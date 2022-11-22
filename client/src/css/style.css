@@ -33,7 +33,7 @@ h1 {
   letter-spacing: 0.9px;
 }
 
-.cm-wrap { height: 300px; border: 1px solid silver}
+.cm-wrap { height: 80%; border: 1px solid silver}
 .cm-scroller { overflow: auto; }
 
 .navbar-brand img {
