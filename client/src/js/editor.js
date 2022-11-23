@@ -20,7 +20,7 @@ export default class {
       mode: 'javascript',
       theme: 'monokai',
       lineNumbers: true,
-      lineWrapping: true,
+      lineWrapping: false,
       autofocus: true,
       indentUnit: 2,
       tabSize: 2,
