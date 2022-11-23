@@ -15,6 +15,9 @@ export default class {
       throw new Error('CodeMirror is not loaded');
     }
 
+    // Viewport margin infinity has been added to the code mirror. 
+    // This allows for a more visually appealing editor
+    
     this.editor = CodeMirror(document.querySelector('#main'), {
       value: '',
       mode: 'javascript',
@@ -24,7 +27,6 @@ export default class {
       autofocus: true,
       indentUnit: 2,
       tabSize: 2,
-      viewportMargin: Infinity
     });
     
     // When the editor is ready, set the value to whatever is stored in indexeddb.

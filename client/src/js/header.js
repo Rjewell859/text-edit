@@ -1,3 +1,5 @@
+// This is the placeholder text drawing for the editor
+
 const header = `
 /*
        _____  ____________

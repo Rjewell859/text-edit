@@ -1,6 +1,11 @@
+// This statement imports openDB from IndexedDB
+
 import {
   openDB
 } from 'idb';
+
+// Initializes the database with an object store utilizing id as a keypath if it does not exist.
+// Otherwise this function returns and does nothing as the database has already been initialized. 
 
 const initdb = async () =>
   openDB('jate', 1, {
@@ -17,6 +22,8 @@ const initdb = async () =>
     },
   });
 
+// The putDb function will update the object store with any additional content
+
 export const putDb = async (content) => {
   console.log('Post to the database');
 
@@ -31,6 +38,8 @@ export const putDb = async (content) => {
   const result = await request;
 };
 
+// The getDb function uses the objectStores getAll() method, retrieving all content.
+
 export const getDb = async () => {
   console.log('GET from the database');
 
@@ -44,5 +53,7 @@ export const getDb = async () => {
   console.log('result.value', result);
   return result;
 };
+
+// This call to initdb() is what "initializes" the database
 
 initdb();
