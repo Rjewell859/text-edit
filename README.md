@@ -1,12 +1,9 @@
 # text-edit
-/*
-       _____  ____________
-      / /   |/_  __/ ____/
- __  / / /| | / / / __/   
-/ /_/ / ___ |/ / / /___   
- ____/_/  |_/_/ /_____/   
+
+J.A.T.E
+
 just another text editor
-*/
+
 
 ## Table of Content
 [Description](#description)
@@ -30,7 +27,7 @@ In fact this application does also include an install button on the top left of 
 
 No installation is required, simply visit the deployed website to use the project. 
 
-Deployed Website: [J.A.T.E]https://text-editor0393.herokuapp.com/
+Deployed Website: [J.A.T.E](https://text-editor0393.herokuapp.com/)
 
 If you chose to start the server locally initially type "npm run install" to install the client side and server side dependencies 
 together. Afterwards, use "npm run" followed by the script of your choice. (Found in package.json "scripts")
