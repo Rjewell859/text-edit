@@ -9,6 +9,7 @@ just another text editor
 [Description](#description)
 [Installation](#installation)    
 [Usage](#usage)
+[Screenshot](#screenshot)
 [Demo](#demo)
 [Contact](#contact)
 
@@ -39,6 +40,9 @@ the content will be stored in the database. On a refresh or revist to the screen
 stored. There is an install button on the top left of the screen, and at the end of the address bar which will 
 install the web application. This will allow you to have offline access and use the app without a browser. 
 
+### Screenshot
+
+![Capture](https://user-images.githubusercontent.com/66131189/206308992-a209d562-5a04-44d8-8773-859e0216cc0d.JPG)
 
 #### Contact
 
