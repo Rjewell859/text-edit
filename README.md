@@ -10,6 +10,7 @@ just another text editor
 [Installation](#installation)    
 [Usage](#usage)
 [Screenshot](#screenshot)
+[Deployed Site](#deployed-site)
 [Demo](#demo)
 [Contact](#contact)
 
@@ -43,6 +44,10 @@ install the web application. This will allow you to have offline access and use 
 ### Screenshot
 
 ![Capture](https://user-images.githubusercontent.com/66131189/206308992-a209d562-5a04-44d8-8773-859e0216cc0d.JPG)
+
+### Deployed Site 
+
+[J.A.T.E](https://text-editor0393.herokuapp.com/)
 
 #### Contact
 
