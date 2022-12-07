@@ -11,6 +11,4 @@ just another text editor
 */                          
 `;
 
-export {
-     header
-};
+export { header };
